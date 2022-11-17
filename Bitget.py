@@ -293,3 +293,5 @@ class Account(Utils):
         params['marginMode'] = marginMode
         request_path = "/api/mix/v1/account/setMarginMode"
         self.request(method,request_path,params,self.use_server_time)
+        
+print("done")
